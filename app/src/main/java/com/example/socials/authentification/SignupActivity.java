@@ -77,10 +77,10 @@ public class SignupActivity extends AppCompatActivity {
 
     private void sendUserToLogin() {
 
-                Intent loginIntent =new Intent(SignupActivity.this, LoginActivity.class);
-                loginIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(loginIntent);
-                finish();
+        Intent loginIntent =new Intent(SignupActivity.this, LoginActivity.class);
+        loginIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(loginIntent);
+        finish();
 
     }
 }
